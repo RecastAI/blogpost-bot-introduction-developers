@@ -1,0 +1,25 @@
+{
+  "name": "blogpost-bot-introduction-developers",
+  "version": "1.0.0",
+  "description": "Sample Code for our blog post: Bots: Introduction to developers",
+  "main": "src/index.js",
+  "scripts": {
+    "start-part-1": "node part1/index.js",
+    "start-part-2": "node part2/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RecastAI/blogpost-bot-introduction-developers.git"
+  },
+  "author": "Marian ANDRE for Recast.AI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RecastAI/blogpost-bot-introduction-developers/issues"
+  },
+  "homepage": "https://github.com/RecastAI/blogpost-bot-introduction-developers#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4"
+  }
+}
