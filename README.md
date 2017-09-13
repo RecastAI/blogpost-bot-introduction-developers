@@ -1,6 +1,6 @@
 # Blog Post sample code - Bot: Introduction to developers
 
-This repository contains sample explains in the article on https://blog.recast.ai
+This repository contains sample code of the article on https://blog.recast.ai
 
 ## Requirements
 
@@ -15,12 +15,17 @@ This repository contains sample explains in the article on https://blog.recast.a
 
 The bot run on port `3333`
 
-Each folder contains code of a part of the blogpost.
+Each folder contains code of a part of the blog post.
 
 To test a part, just run the command:
 `npm run start-part-X` (Ex: `npm run start-part-1`)
 
 After running this command, you can verify your bot is running, going to http://localhost:3333
+
+## Info
+
+For using part 2, you have to provide an Google API key.
+You can key one for free, using free plan here: https://developers.google.com/places/web-service/search?hl=fr by clickin on "Get a key" button
 
 ## License
 
